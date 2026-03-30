@@ -1,0 +1,2 @@
+from .plots_estacionarios import plotar_perfis_est_separados, plotar_perfis_est_juntos, plotar_perfis_est_conc_juntos
+from .plots_dinamicos import plotar_perfis_din_separados, plotar_perfis_din_juntos, plotar_perfis_din_conc_juntos
