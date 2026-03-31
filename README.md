@@ -9,9 +9,9 @@ A cinética do processo é descrita pelo esquema reacional abaixo:
 
 $$
 \begin{aligned}
-    &\text{A} \xrightarrow{k_1} \text{B} \xrightarrow{k_2} \text{C} 
+    &\text{A} ~ \xrightarrow{k_1} ~ \text{B} ~ \xrightarrow{k_2} ~ \text{C} 
     \\
-    2~&\text{A} \xrightarrow{k_3} \text{D}
+    2~&\text{A} ~ \xrightarrow{k_3} ~ \text{D}
 \end{aligned}
 $$
 
@@ -30,10 +30,10 @@ O balanço de energia no reator:
 $$
 \begin{equation}
     \begin{aligned}
-        \frac{dT}{dt} &= \dfrac{1}{\rho~c_p} \biggl[k_1(T)C_A(-\Delta{H_{R,AB}}) \\ 
+        \frac{dT}{dt} &= \dfrac{1}{\rho ~c_p} \biggl[k_1(T)C_A(-\Delta{H_{R,AB}}) \\ 
         &~~\qquad + k_2(T)C_B(-\Delta{H_{R,BC}}) \\ 
         &~~\qquad + k_3(T){C_A}^2(-\Delta{H_{R,AD}}) \biggr] \\
-        &~~\qquad + \dfrac{F}{V}\left(T_0 - T\right) + \dfrac{K_W A_R}{\rho~c_p~V} \left(T_K - T\right) 
+        &~~\qquad + \dfrac{F}{V}\left(T_0 - T\right) + \dfrac{K_W A_R}{\rho ~c_p~V} \left(T_K - T\right) 
     \end{aligned}
 \end{equation}
 $$
