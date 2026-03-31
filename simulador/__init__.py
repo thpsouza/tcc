@@ -1,1 +1,1 @@
-from .simulador_base import calcular_dinamica, calcular_estado_estacionario
+from .simulador_basico import calcular_dinamica, calcular_estado_estacionario
