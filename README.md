@@ -16,8 +16,8 @@ $$
 $$
 
 Os balanços molares para o reagente (A) e o produto de interesse (B):
-$$
 
+$$
 \begin{align}
     \frac{dC_A}{dt} &= \frac{F}{V}\left(C_{A0} - C_A \right)- k_1(T) C_A - k_3(T) {C_A}^2
     \\
