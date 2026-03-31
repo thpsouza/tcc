@@ -26,8 +26,8 @@ $$
 $$
 
 O balanço de energia no reator:
-$$
 
+$$
 \begin{equation}
     \begin{aligned}
         \frac{dT}{dt} &= \dfrac{1}{\rho~c_p} \biggl[k_1(T)C_A(-\Delta{H_{R,AB}}) \\ 
