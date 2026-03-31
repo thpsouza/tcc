@@ -6,6 +6,7 @@ O processo utilizado como benchmark para essa aplicação será o **Reator de Va
 
 ## ⚖️ Modelagem:
 A cinética do processo é descrita pelo esquema reacional abaixo:
+
 $$
 \begin{aligned}
     &\text{A} \xrightarrow{k_1} \text{B} \xrightarrow{k_2} \text{C} 
@@ -14,9 +15,9 @@ $$
 \end{aligned}
 $$
 
-
 Os balanços molares para o reagente (A) e o produto de interesse (B):
 $$
+
 \begin{align}
     \frac{dC_A}{dt} &= \frac{F}{V}\left(C_{A0} - C_A \right)- k_1(T) C_A - k_3(T) {C_A}^2
     \\
@@ -26,6 +27,7 @@ $$
 
 O balanço de energia no reator:
 $$
+
 \begin{equation}
     \begin{aligned}
         \frac{dT}{dt} &= \dfrac{1}{\rho~c_p} \biggl[k_1(T)C_A(-\Delta{H_{R,AB}}) \\ 
